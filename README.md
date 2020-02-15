@@ -5,7 +5,7 @@ For the moment in only written in C but it will be write in Python and ASMx64
 
 # C
 
-touch Collen ;clang -Wall -Wextra _Werror -o Collen Collen.c. && ./Collen > tmpCollen && diff tmpCollen Collen.c
+touch Collen ; clang -Wall -Wextra _Werror -o Collen Collen.c. && ./Collen > tmpCollen && diff tmpCollen Collen.c
 
 touch Grace ; clang -Wall -Wextra -Werror -o Grace Grace.c && ./Grace && diff Grace_kid.c Grace.c
 
