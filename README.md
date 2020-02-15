@@ -17,10 +17,10 @@ Sully.c :
 touch Sully_5
 clang -Wall -Wextra -Werror -o Sully_5 Sully.c && ./Sully_5 && diff Sully_5.c Sully.c
 
-#ASM
+# ASM
 
 TO DO
 
-#Python
+# Python
 
 TO DO
